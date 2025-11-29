@@ -1,0 +1,31 @@
+[
+    {
+        "id": "bd80cf8b1b66c914",
+        "type": "ui_toast",
+        "z": "0fc49a029641c359",
+        "position": "dialog",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 1,
+        "ok": "OK",
+        "cancel": "Cancel",
+        "raw": false,
+        "className": "Delete",
+        "topic": "Are you Sure To Delete",
+        "name": "Delete",
+        "x": 330,
+        "y": 780,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "04e0ac2fb823e48f",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
