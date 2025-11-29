@@ -1,0 +1,74 @@
+[
+    {
+        "id": "3d8e9a18e2f364bf",
+        "type": "ui_form",
+        "z": "0323f27706cf2796",
+        "name": "",
+        "label": "Send MQTT MSG",
+        "group": "c7eab71c28be801c",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "BODY",
+                "value": "body",
+                "type": "multiline",
+                "required": true,
+                "rows": 3
+            },
+            {
+                "label": "ID",
+                "value": "id",
+                "type": "text",
+                "required": false,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "body": "",
+            "id": ""
+        },
+        "payload": "",
+        "submit": "submit",
+        "cancel": "cancel",
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": "",
+        "className": "",
+        "x": 350,
+        "y": 580,
+        "wires": [
+            [
+                "e0d96d23c555c620"
+            ]
+        ]
+    },
+    {
+        "id": "c7eab71c28be801c",
+        "type": "ui_group",
+        "name": "Default",
+        "tab": "74623c7830ac800e",
+        "order": 1,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "74623c7830ac800e",
+        "type": "ui_tab",
+        "name": "MQTT DEMO",
+        "icon": "dashboard",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "47d5cd4caca7803f",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-dashboard": "3.6.6"
+        }
+    }
+]
