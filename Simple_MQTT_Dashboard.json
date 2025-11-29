@@ -1,0 +1,21 @@
+[
+    {
+        "id": "2d61c870b037da15",
+        "type": "play_audio_file",
+        "z": "92e0c8039014232c",
+        "filename": "/home/bsm/Desktop/NodeRed/siren-alert-96052.mp3",
+        "x": 1040,
+        "y": 1180,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "4eb5f224c19464fc",
+        "type": "global-config",
+        "env": [],
+        "modules": {
+            "node-red-contrib-play-audio-file": "0.0.1"
+        }
+    }
+]
