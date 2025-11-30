@@ -59,7 +59,7 @@
         "fieldType": "msg",
         "format": "handlebars",
         "syntax": "mustache",
-        "template": "https://api.openweathermap.org/data/2.5/weather?q={{payload.city}},{{payload.countryCode}}&units=metric&appid=046fa467ab49f94ecb56674eaac31ca4",
+        "template": "https://api.openweathermap.org/data/2.5/weather?q={{payload.city}},{{payload.countryCode}}&units=metric&appid=XXXXXXXXXXXXXXXXXXX",
         "output": "str",
         "x": 680,
         "y": 280,
